@@ -19,7 +19,7 @@ function draw() {
  Button1=createSprite(90,90,80,50);
  Button2=createSprite(270,90,80,50);
 text("Volt",80,60)
-text("",254,60)
+text("Ohm",254,60)
 text("HOME",162,60)
 }
 
@@ -33,7 +33,8 @@ if(gamestate===1){
 }
 if(gamestate===2){
   //Button2.visible = false;
-  text("Hi mom her is your formula :::::::::::::",10,220)
+  text(" Unit of resistance offered to the passage of one ampere when ",10,220)
+  text("impelled by one volt.",14,230)
 }
   if(mousePressedOver(Button3)){
     
